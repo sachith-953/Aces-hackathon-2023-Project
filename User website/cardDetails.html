@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>UniHub</title>
+
+    <!-- Navigation bar and the fixed header -->
+    <section id = "header">
+      <a href = "#"><img src = "images/logo.png" ></a>
+
+      <div>
+          <ul id = "navbar">
+              <li><a class = "active" href="index.html">Home</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+          </ul>
+      </div>
+    </section>
+
+  </head>
+
+  <body>
+
+    <!-- card Details -->
+    <section class="section card-detail">
+      <div class="details container">
+        <div class="left image-container">
+          <div class="main">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387301.59691538754!2d-74.25986575989364!3d40.69714942219029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c18e77d64e6b%3A0x6a5ec57f0932b30d!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sca!4v1632152335119!5m2!1sen!2sca" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="right">
+          <span>PANIDENIYA BOARDING</span>
+          <h1>10 PERSONS (Boys)</h1>
+          <div class="price">Rs. 50,000</div>
+        
+          <h4>AVAILABLE</h4>
+          <h4>Contacts: 0714772989/0766599539 </br> Mr. Gunapala </h4>
+
+          <p>
+            light and water bills are paid, coocking facility, two bathrooms, study room, 10 beds
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="">About us</a>
+          <a href="">Contact Us</a>
+          <a href="">Term & Conditions</a>
+          <a href="">Shipping Guide</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="">Online Store</a>
+          <a href="">Customer Services</a>
+          <a href="">Promotion</a>
+          <a href="">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class="bx bxl-facebook-square"></i></span>
+          <span><i class="bx bxl-instagram-alt"></i></span>
+          <span><i class="bx bxl-github"></i></span>
+          <span><i class="bx bxl-twitter"></i></span>
+          <span><i class="bx bxl-pinterest"></i></span>
+        </div>
+      </div>
+    </footer>
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
+    </script>
+  </body>
+</html>
